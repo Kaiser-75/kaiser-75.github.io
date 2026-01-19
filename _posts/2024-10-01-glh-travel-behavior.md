@@ -7,6 +7,8 @@ categories: research
 author: "Kaiser Hamid"
 authors: "<strong>Kaiser Hamid</strong>, Md Sayem Noor, Annesha Enam, PhD"
 venue: "Proceedings of IEEE ITSC 2024"
+paper: https://ieeexplore.ieee.org/abstract/document/10919638
+presentation: https://youtu.be/OyFG3QcIwJA?si=kjAun5LXtZrzgsOV
 ---
 
 An empirical assessment of Google Location History data for travel behavior research, focusing on feasibility, limitations, and practical considerations in developing-country contexts.
