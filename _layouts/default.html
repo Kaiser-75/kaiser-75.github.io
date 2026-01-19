@@ -2,78 +2,94 @@
 <html lang="en">
 
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-254675481-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-254675481-1');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-254675481-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-254675481-1');
+  </script>
 
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
-  
+
 <body>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Shenao Zhang 
+                Kaiser Hamid
               </h1>
-              <p>I am a final-year Ph.D. student at <a href="https://www.northwestern.edu/">Northwestern University</a> advised by Prof. <a href="https://zhaoranwang.github.io/">Zhaoran Wang</a>. I received my M.S. degree from <a href="https://www.gatech.edu/">Georgia Tech</a>, where I was fortunate to work with Prof. <a href="https://www2.isye.gatech.edu/~tzhao80/">Tuo Zhao</a> and Prof. <a href="https://bo-dai.github.io/">Bo Dai</a>. I obtained my Bachelor's degree from <a href="https://www.scut.edu.cn/en/">South China University of Technology</a> and visited Berkeley EECS during my undergrad.<br/> 
-              </p>
+
               <p>
-                Previously, I interned at <a href="https://machinelearning.apple.com/research/apple-foundation-models-tech-report-2025">Apple</a>, <a href="https://www.google.com">Google</a>, <a href="https://www.microsoft.com/en-us/research/">Microsoft</a>, <a href="https://seed.bytedance.com/en/">ByteDance Seed</a>, and <a href="https://ai.tencent.com/ailab/en/index/">Tencent AI</a>.
+                I am a researcher working at the intersection of <b>Human–Computer Interaction (HCI)</b> and
+                <b>autonomous driving</b>. My work focuses on understanding and predicting driver behavior
+                (e.g., attention, intent, and future actions) using multimodal perception and learning-based methods.
               </p>
+
+              <p>
+                Broadly, I am interested in robust, interpretable, and scalable approaches for end-to-end driving and
+                driver-intent prediction, including vision-language models, temporal reasoning, and evaluation protocols
+                that generalize across datasets and scenarios.
+              </p>
+
               <p style="color: red;">
-              I will be on the 2026 industry job market. If you find me a good fit for your team, feel free to reach out!
+                I am open to research collaborations and internship/visiting opportunities. If you think there is a fit,
+                please reach out.
               </p>
+
               <p style="text-align:center">
-                <a href="https://shenao-zhang.github.io/cv/Zhang_Shenao_CV.pdf">CV</a> &nbsp;/&nbsp;
-                <a target="_blank" href="mailto:shenao@u.northwestern.edu"> Email</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=8NamuusAAAAJ&hl">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/shenao-zhang-055a53178/"> LinkedIn </a> &nbsp;/&nbsp;
-                <a href="https://twitter.com/ShenaoZhang"> Twitter </a>
+                <a href="https://kaiser-75.github.io/cv/Kaiser_Hamid_CV.pdf">CV</a> &nbsp;/&nbsp;
+                <a target="_blank" href="mailto:kaiser@ttu.edu">Email</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/">LinkedIn</a> &nbsp;/&nbsp;
+                <a href="https://github.com/kaiser-75">GitHub</a>
               </p>
             </td>
+
             <td style="padding:2.5%;width:20%;max-width:20%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/photo.jpeg">
             </td>
           </tr>
         </table>
 
-       
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-               My research centers on LLM and RL, with a focus on reasoning, agents, and alignment. I develop models that learn strong foundations from offline data and self-improve via online exploration and adaptation. Currently, I'm particularly interested in designing <a href="https://x.com/ShenaoZhang/status/2006410757215498261">fine-grained and scalable supervision</a> for LLM training.
+                My research spans driver intent prediction, human-centered autonomy, and multimodal learning for
+                autonomous driving. I study how to leverage vision, temporal context, and (when available) language- or
+                gaze-based supervision to build models that are accurate, generalizable, and explainable in safety-critical
+                settings.
+              </p>
+
               <style>
-  .specific-line {
-    margin-bottom: -15px; /* Adjust the line height to reduce space */
-  }
-</style>
-<p class="specific-line"><br> (* indicates equal contribution, <sup>†</sup> indicates equal advising)
-  </p>
+                .specific-line {
+                  margin-bottom: -15px; /* reduce space below this line */
+                }
+              </style>
+
+              <p class="specific-line">
+                <br> (* indicates equal contribution, <sup>†</sup> indicates equal advising)
+              </p>
             </td>
           </tr>
         </table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           {% for post in site.posts %}
           {% for cat in post.categories %}
@@ -86,7 +102,6 @@
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
-
               <br>
               <em>{{post.venue}}</em>
               <br>
@@ -122,35 +137,35 @@
           {% endfor %}
           {% endfor %}
         </table>
-        
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Professional Service</h2>
               <p>
-                <b>Conference Review:</b> NeurIPS 2020-25, ICLR 2022-25, ICML 2022-25, AISTATS 2022-25, COLM 2024-25.
+                <b>Conference Review:</b> (add your venues/years here)
               </p>
               <p>
-                <b>Journal Review:</b> Neurocomputing, Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Transactions on Machine Learning Research (TMLR).
+                <b>Journal Review:</b> (add your journals here)
               </p>
             </td>
           </tr>
         </table>
-   
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Teaching</h2>
               <p>
-                <b>Graduate Teaching Assistant:</b> Head TA of CS 7648: Interactive Robot Learning (Fall 2021) at Georgia
-Tech.
+                (add your TA/instructor roles here)
               </p>
             </td>
           </tr>
         </table>
-        
+
         <br>
         <br>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
@@ -161,6 +176,7 @@ Tech.
             </td>
           </tr>
         </table>
+
       </td>
     </tr>
   </table>
