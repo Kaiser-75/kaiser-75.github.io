@@ -6,7 +6,7 @@ image: /images/takeover_metric.png
 categories: research
 author: "Kaiser Hamid"
 authors: "<strong>Kaiser Hamid</strong>, Nade Liang, PhD"
-venue: "HFES 2025 (Accepted)"
+venue: "HFES 2025"
 poster: https://drive.google.com/drive/u/0/folders/1TzW38digddxSLrk973db0hmcpt9BdeTx
 ---
 
