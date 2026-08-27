@@ -6,7 +6,11 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-254675481-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
     gtag('config', 'UA-254675481-1');
   </script>
@@ -14,25 +18,105 @@
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <meta name="author" content="{{ site.name }}" />
+  <meta name="author" content="{{ site.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ site.baseurl }}/style.css">
+
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+    rel="stylesheet"
+    type="text/css">
+
+  <style>
+
+    /* =========================
+       Publication formatting
+       ========================= */
+
+    .paper-title {
+      display: block;
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 0 0 4px 0;
+    }
+
+    .paper-authors {
+      display: block;
+      margin: 0 0 3px 0;
+      line-height: 1.35;
+    }
+
+    .paper-venue {
+      display: block;
+      margin: 0 0 4px 0;
+      line-height: 1.35;
+    }
+
+    .paper-links {
+      display: block;
+      margin: 0 0 8px 0;
+      line-height: 1.35;
+    }
+
+    .paper-excerpt {
+      display: block;
+      margin: 8px 0 0 0;
+      line-height: 1.4;
+    }
+
+    .publication-image {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+    }
+
+  </style>
+
 </head>
+
 
 <body>
 
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table
+    style="
+      width:100%;
+      max-width:800px;
+      border:0px;
+      border-spacing:0px;
+      border-collapse:separate;
+      margin-right:auto;
+      margin-left:auto;
+    ">
+
     <tr style="padding:0px">
+
       <td style="padding:0px">
 
-        <!-- ====================================================== -->
-        <!-- ABOUT -->
-        <!-- ====================================================== -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- ===================================================== -->
+        <!-- ABOUT                                                 -->
+        <!-- ===================================================== -->
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
           <tr style="padding:0px">
 
             <td style="padding:2.5%;width:60%;vertical-align:middle">
@@ -41,281 +125,578 @@
                 Kaiser Hamid
               </h1>
 
-              <p>
-                I am a Ph.D. student at
-                <a href="https://www.ttu.edu/">Texas Tech University</a>
-                and a Graduate Research Assistant in the
-                <a href="https://www.hiacelab.com/">Human-in-the-loop Advanced Cognitive Engineering (HiACE) Lab</a>,
-                advised by
-                <a href="https://scholar.google.com/citations?user=w6e-GSgAAAAJ&amp;hl=zh-TW">Dr. Nade Liang</a>.
-                I also collaborate with the
-                <a href="https://appliedvisionlab.owlstown.net/">Applied Vision Lab</a>
-                at Texas Tech University, led by
-                <a href="https://scholar.google.com/citations?user=sY5ufd8AAAAJ&amp;hl=en">Dr. Hamed Sari-Sarraf</a>.
-              </p>
 
               <p>
-                I am also pursuing an M.S. in Electrical &amp; Computer Engineering at Texas Tech University.
-                I received my B.Sc. degree from
-                <a href="https://www.buet.ac.bd/">Bangladesh University of Engineering &amp; Technology (BUET)</a>.
+                I am a Ph.D. student at
+                <a href="https://www.ttu.edu/">
+                  Texas Tech University
+                </a>
+                and a Graduate Research Assistant in the
+                <a href="https://www.hiacelab.com/">
+                  Human-in-the-loop Advanced Cognitive Engineering (HiACE) Lab
+                </a>,
+                advised by
+                <a href="https://scholar.google.com/citations?user=w6e-GSgAAAAJ&amp;hl=zh-TW">
+                  Dr. Nade Liang
+                </a>.
+
+                I also collaborate with the
+                <a href="https://appliedvisionlab.owlstown.net/">
+                  Applied Vision Lab
+                </a>
+                at Texas Tech University, led by
+                <a href="https://scholar.google.com/citations?user=sY5ufd8AAAAJ&amp;hl=en">
+                  Dr. Hamed Sari-Sarraf
+                </a>.
               </p>
+
+
+              <p>
+                I am also pursuing an M.S. in Electrical &amp; Computer Engineering
+                at Texas Tech University.
+
+                I received my B.Sc. degree from
+                <a href="https://www.buet.ac.bd/">
+                  Bangladesh University of Engineering &amp; Technology (BUET)
+                </a>.
+              </p>
+
 
               <p style="color:red;">
                 I am open to research collaborations and internship opportunities.
                 If you find me a good fit, feel free to reach out!
               </p>
 
+
               <p style="text-align:center">
-                <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://drive.google.com/file/d/1yEFNXHRR48X8VfFBUQ-z6vdiJEbaQQun/view?usp=sharing">
+
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/1yEFNXHRR48X8VfFBUQ-z6vdiJEbaQQun/view?usp=sharing">
                   CV
                 </a>
+
                 &nbsp;/&nbsp;
 
                 <a href="mailto:kaiserhamid.munna@ttu.edu">
                   Email
                 </a>
+
                 &nbsp;/&nbsp;
 
-                <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://scholar.google.com/citations?user=rMcz-ckAAAAJ&amp;hl=en">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://scholar.google.com/citations?user=rMcz-ckAAAAJ&amp;hl=en">
                   Google Scholar
                 </a>
+
                 &nbsp;/&nbsp;
 
-                <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://www.linkedin.com/in/kaiser-buet/">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/kaiser-buet/">
                   LinkedIn
                 </a>
+
                 &nbsp;/&nbsp;
 
-                <a target="_blank"
-                   rel="noopener noreferrer"
-                   href="https://github.com/kaiser-75">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/kaiser-75">
                   GitHub
                 </a>
+
               </p>
 
             </td>
 
+
             <td style="padding:2.5%;width:20%;max-width:20%">
+
               <img
                 style="width:100%;max-width:100%"
                 alt="Kaiser Hamid profile photo"
                 src="images/IMG_8096.jpeg">
+
             </td>
 
           </tr>
+
         </table>
 
 
-        <!-- ====================================================== -->
-        <!-- RESEARCH -->
-        <!-- ====================================================== -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- ===================================================== -->
+        <!-- RESEARCH                                              -->
+        <!-- ===================================================== -->
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
           <tr>
+
             <td style="padding:2.5%;width:100%;vertical-align:middle">
 
-              <h2>Research</h2>
+              <h2>
+                Research
+              </h2>
 
               <p>
-                I research computer vision and vision-language-action (VLA) models for autonomous driving,
-                with a focus on robust perception, reliable decision-making, and safety-critical evaluation.
-              </p>
-
-            </td>
-          </tr>
-        </table>
-
-
-        <!-- RESEARCH PROJECTS / PAPERS -->
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-
-          {% if cat == 'research' %}
-
-          <tr>
-
-            <td style="padding:1.2%;width:25%;vertical-align:middle;min-width:120px">
-              <img
-                src="{{ post.image }}"
-                alt="{{ post.title }}"
-                style="width:auto;height:auto;max-width:100%;" />
-            </td>
-
-            <td style="padding:1.2%;width:75%;vertical-align:middle">
-
-              <h3>{{ post.title }}</h3>
-
-              {{ post.authors }}
-              <br>
-
-              <em>{{ post.venue }}</em>
-              <br>
-
-              {% if post.arxiv %}
-              <a href="{{ post.arxiv }}">paper</a> /
-              {% endif %}
-
-              {% if post.video %}
-              <a href="{{ post.video }}">video</a> /
-              {% endif %}
-
-              {% if post.code %}
-              <a href="{{ post.code }}">code</a> /
-              {% endif %}
-
-              {% if post.website %}
-              <a href="{{ post.website }}">website</a> /
-              {% endif %}
-
-              {% if post.poster %}
-              <a href="{{ post.poster }}">poster</a> /
-              {% endif %}
-
-              {% if post.models %}
-              <a href="{{ post.models }}">models</a> /
-              {% endif %}
-
-              {% if post.thread %}
-              <a href="{{ post.thread }}">thread</a> /
-              {% endif %}
-
-              <p>
-                {{ post.excerpt }}
+                I research computer vision and vision-language-action (VLA)
+                models for autonomous driving, with a focus on robust perception,
+                reliable decision-making, and safety-critical evaluation.
               </p>
 
             </td>
 
           </tr>
 
-          {% endif %}
-
-          {% endfor %}
-          {% endfor %}
-
         </table>
 
 
-        <!-- ====================================================== -->
-        <!-- PRESENTATIONS -->
-        <!-- ====================================================== -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+        <!-- ===================================================== -->
+        <!-- RESEARCH PROJECTS                                     -->
+        <!-- ===================================================== -->
 
-              <h2>Presentations</h2>
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
 
-            </td>
-          </tr>
-        </table>
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
 
-          {% if cat == 'presentation' %}
+          {% if post.categories contains 'research' %}
+
 
           <tr>
 
-            <td style="padding:1.2%;width:25%;vertical-align:middle;min-width:120px">
+
+            <!-- IMAGE -->
+
+            <td
+              style="
+                padding:1.2%;
+                width:25%;
+                vertical-align:middle;
+                min-width:120px;
+              ">
 
               {% if post.image %}
+
               <img
                 src="{{ post.image }}"
                 alt="{{ post.title }}"
-                style="width:auto;height:auto;max-width:100%;" />
+                class="publication-image">
+
               {% endif %}
 
             </td>
 
-            <td style="padding:1.2%;width:75%;vertical-align:middle">
 
-              <h3>{{ post.title }}</h3>
 
-              {{ post.authors }}
-              <br>
+            <!-- PROJECT INFORMATION -->
 
-              <em>{{ post.venue }}</em>
-              <br>
+            <td
+              style="
+                padding:1.2%;
+                width:75%;
+                vertical-align:middle;
+              ">
 
-              {% if post.poster %}
-              <a href="{{ post.poster }}">poster</a> /
+
+              <!-- TITLE -->
+
+              <div class="paper-title">
+                {{ post.title }}
+              </div>
+
+
+              <!-- AUTHORS -->
+
+              <div class="paper-authors">
+                {{ post.authors }}
+              </div>
+
+
+              <!-- VENUE -->
+
+              {% if post.venue %}
+
+              <div class="paper-venue">
+                <em>{{ post.venue }}</em>
+              </div>
+
               {% endif %}
 
-              {% if post.slides %}
-              <a href="{{ post.slides }}">slides</a> /
-              {% endif %}
 
-              {% if post.video %}
-              <a href="{{ post.video }}">video</a> /
-              {% endif %}
 
-              {% if post.website %}
-              <a href="{{ post.website }}">website</a> /
-              {% endif %}
+              <!-- LINKS -->
 
-              <p>
+              <div class="paper-links">
+
+                {% if post.arxiv %}
+                <a href="{{ post.arxiv }}">paper</a>
+                {% endif %}
+
+
+                {% if post.video %}
+
+                  {% if post.arxiv %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.video }}">video</a>
+
+                {% endif %}
+
+
+                {% if post.code %}
+
+                  {% if post.arxiv or post.video %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.code }}">code</a>
+
+                {% endif %}
+
+
+                {% if post.website %}
+
+                  {% if post.arxiv or post.video or post.code %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.website }}">website</a>
+
+                {% endif %}
+
+
+                {% if post.poster %}
+
+                  {% if post.arxiv or post.video or post.code or post.website %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.poster }}">poster</a>
+
+                {% endif %}
+
+
+                {% if post.models %}
+
+                  {% if post.arxiv or post.video or post.code or post.website or post.poster %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.models }}">models</a>
+
+                {% endif %}
+
+
+                {% if post.thread %}
+
+                  {% if post.arxiv or post.video or post.code or post.website or post.poster or post.models %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.thread }}">thread</a>
+
+                {% endif %}
+
+              </div>
+
+
+
+              <!-- DESCRIPTION -->
+
+              {% if post.excerpt %}
+
+              <div class="paper-excerpt">
                 {{ post.excerpt }}
-              </p>
+              </div>
+
+              {% endif %}
+
 
             </td>
 
           </tr>
 
+
           {% endif %}
 
           {% endfor %}
-          {% endfor %}
+
 
         </table>
 
 
-        <!-- ====================================================== -->
-        <!-- PROFESSIONAL SERVICE -->
-        <!-- ====================================================== -->
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <!-- ===================================================== -->
+        <!-- PRESENTATIONS                                         -->
+        <!-- ===================================================== -->
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
           <tr>
 
             <td style="padding:2.5%;width:100%;vertical-align:middle">
 
-              <h2>Professional Service</h2>
+              <h2>
+                Presentations
+              </h2>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+
+
+        <!-- ===================================================== -->
+        <!-- PRESENTATION ENTRIES                                  -->
+        <!-- ===================================================== -->
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
+
+          {% for post in site.posts %}
+
+          {% if post.categories contains 'presentation' %}
+
+
+          <tr>
+
+
+            <!-- IMAGE -->
+
+            <td
+              style="
+                padding:1.2%;
+                width:25%;
+                vertical-align:middle;
+                min-width:120px;
+              ">
+
+              {% if post.image %}
+
+              <img
+                src="{{ post.image }}"
+                alt="{{ post.title }}"
+                class="publication-image">
+
+              {% endif %}
+
+            </td>
+
+
+
+            <!-- PRESENTATION INFORMATION -->
+
+            <td
+              style="
+                padding:1.2%;
+                width:75%;
+                vertical-align:middle;
+              ">
+
+
+              <!-- TITLE -->
+
+              <div class="paper-title">
+                {{ post.title }}
+              </div>
+
+
+              <!-- AUTHORS -->
+
+              <div class="paper-authors">
+                {{ post.authors }}
+              </div>
+
+
+              <!-- VENUE -->
+
+              {% if post.venue %}
+
+              <div class="paper-venue">
+                <em>{{ post.venue }}</em>
+              </div>
+
+              {% endif %}
+
+
+
+              <!-- PRESENTATION LINKS -->
+
+              <div class="paper-links">
+
+
+                {% if post.poster %}
+                <a href="{{ post.poster }}">poster</a>
+                {% endif %}
+
+
+                {% if post.slides %}
+
+                  {% if post.poster %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.slides }}">slides</a>
+
+                {% endif %}
+
+
+                {% if post.video %}
+
+                  {% if post.poster or post.slides %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.video }}">video</a>
+
+                {% endif %}
+
+
+                {% if post.website %}
+
+                  {% if post.poster or post.slides or post.video %}
+                  /
+                  {% endif %}
+
+                <a href="{{ post.website }}">website</a>
+
+                {% endif %}
+
+
+              </div>
+
+
+
+              <!-- DESCRIPTION -->
+
+              {% if post.excerpt %}
+
+              <div class="paper-excerpt">
+                {{ post.excerpt }}
+              </div>
+
+              {% endif %}
+
+
+            </td>
+
+          </tr>
+
+
+          {% endif %}
+
+          {% endfor %}
+
+
+        </table>
+
+
+
+        <!-- ===================================================== -->
+        <!-- PROFESSIONAL SERVICE                                  -->
+        <!-- ===================================================== -->
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
+          <tr>
+
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+
+
+              <h2>
+                Professional Service
+              </h2>
+
 
               <p>
                 <b>Journal Review:</b>
                 IEEE Transactions on Automation Science and Engineering (T-ASE)
               </p>
 
+
               <p>
                 <b>Conference Review:</b>
                 HFES'25, TRB'26
               </p>
 
+
             </td>
 
           </tr>
+
         </table>
 
 
-        <!-- ====================================================== -->
-        <!-- FOOTER -->
-        <!-- ====================================================== -->
+
+        <!-- ===================================================== -->
+        <!-- FOOTER                                                -->
+        <!-- ===================================================== -->
 
         <br>
         <br>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+        <table
+          style="
+            width:100%;
+            border:0px;
+            border-spacing:0px;
+            border-collapse:separate;
+            margin-right:auto;
+            margin-left:auto;
+          ">
+
           <tr>
 
             <td style="padding:0px">
@@ -323,21 +704,28 @@
               <br>
 
               <p style="text-align:center;font-size:small;">
+
                 Source code from
+
                 <a
                   style="font-size:small;"
                   href="https://jonbarron.info">
                   Jon Barron's website
                 </a>
+
               </p>
 
             </td>
 
           </tr>
+
         </table>
 
+
       </td>
+
     </tr>
+
   </table>
 
 </body>
