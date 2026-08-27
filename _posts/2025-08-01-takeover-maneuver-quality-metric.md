@@ -3,7 +3,7 @@ layout: post
 title: "A New Evaluation Metric for Takeover Maneuver Quality: Comparing Human Drivers with Autonomous Driving Agents"
 date: 2025-08-01 01:01:01 +00:00
 image: /images/takeover_metric.png
-categories: research
+categories: presentation
 author: "Kaiser Hamid"
 authors: "<strong>Kaiser Hamid</strong>, Nade Liang, PhD"
 venue: "HFES 2025"
