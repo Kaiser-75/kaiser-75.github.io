@@ -6,7 +6,7 @@ image: /images/glh_travel.png
 categories: research
 author: "Kaiser Hamid"
 authors: "<strong>Kaiser Hamid</strong>, Md Sayem Noor, Annesha Enam, PhD"
-venue: "Proceedings of IEEE ITSC 2024"
+venue: "IEEE ITSC 2024"
 arxiv: https://ieeexplore.ieee.org/abstract/document/10919638
 poster: https://youtu.be/OyFG3QcIwJA?si=kjAun5LXtZrzgsOV
 ---
